@@ -1,20 +1,19 @@
 <span style="font-family:Times New Roman; font-size:14pt;">
-<h2 align="center"><b>Optimizing Power Generation and Reservoir Management for Cost-Efficient Electricity Supply</b></h2>
+<h2 align="center"><b>Cost-Effective Operation and Tariff Strategies for Multi-Generation Electricity Production with Hydro Reservoir Management</b></h2>
 </span>
 
 <span style="font-family: Times New Roman; font-size: 13pt;">
 
-This project tackles the complex task of optimizing power generation and reservoir management for cost-efficient electricity supply. The problem involves a set of power stations responsible for meeting daily electricity load demands. These stations comprise different types of generators, each with its operational constraints, hourly costs, and start-up costs. The challenge is to determine which generators should operate during specific time periods to minimize the overall cost, while also ensuring a 15% reserve capacity to handle unforeseen load increases. Furthermore, this problem extends to include hydro generators, a reservoir, and environmental constraints, such as maintaining the reservoir's depth within specific limits.
+Phase 1:
 
-Key Questions:
+The project addresses the optimization of electricity generation in power stations faced with varying load demands. Three types of generating units are available, each with operational cost characteristics. The goal is to determine the optimal combination of generators and their operation schedules to minimize the overall production cost while ensuring a 15% load reserve. Additionally, the project aims to calculate the marginal cost of electricity production during different periods of the day, guiding tariff pricing decisions. Finally, the project evaluates the cost associated with maintaining the 15% load reserve, providing insights into the cost of security of supply guarantees.
 
-- Optimal Generator Operation: The first question involves identifying which generators should be active at different times of the day to minimize the total cost of electricity production.
+Phase 2:
 
-- Marginal Cost of Production: The second question seeks to determine the marginal cost of electricity production during each time period, which directly informs tariff pricing.
+Building upon the Phase 1 problem, Phase 2 introduces hydro generators with their own operational characteristics and environmental constraints. The reservoir must be maintained within specific depth limits for environmental reasons, and replenished using thermal generators when necessary. To further complicate matters, the reservoir must reach a set depth at midnight daily. The project extends the optimization model to determine which generators to operate during different time periods while managing the reservoir effectively to minimize total costs. This includes utilizing hydro generators, thermal generators for reservoir replenishment, and adjusting thermal generator outputs. The goal remains to minimize costs while meeting demand fluctuations and environmental constraints.
 
-- Impact of 15% Reserve Output: The third question evaluates the cost implications of reducing the 15% reserve capacity, providing insights into the trade-offs between security of supply and cost savings.
+In both phases, the project uses a mathematical modeling approach solved with GAMS to address these complex optimization problems in the electricity generation and pricing domain, providing valuable insights into cost-effective power generation strategies and tariff rate decisions for power stations.
 
-To address this multifaceted problem, a mathematical model was developed, and the General Algebraic Modeling System (GAMS) was employed for implementation and optimization. The model considers various factors, such as generator types, operational constraints, hourly and start-up costs, and the need to maintain reservoir depth. It also accounts for the 15% reserve capacity requirement and the flexibility to switch on hydro generators or use thermal generators for reservoir pumping when demand surges. The model's objective is to minimize the overall cost while adhering to all constraints.
 
 <br>
-You can find the results and step-by-step explanations for this project in the .pdf file. We've also included the code, along with complete documentation and line-by-line explanations for your further review.
+You can find the results and step-by-step explanations for this project in the .pdf file. We've also included the codes, along with complete documentation and line-by-line explanations for your further review.
